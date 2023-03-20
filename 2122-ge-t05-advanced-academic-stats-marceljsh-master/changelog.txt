@@ -1,0 +1,7 @@
+import driver2 Quiz ke driver1
+mengkustomisasi driver1
+memperbaiki driver1
+copy driver1 ke driver2
+membuat sebuah abstract class baru dan menerapkan inheritance
+memperbaiki constructor
+memperbaiki toString

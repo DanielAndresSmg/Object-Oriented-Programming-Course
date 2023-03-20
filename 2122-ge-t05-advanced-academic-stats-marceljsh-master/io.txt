@@ -1,0 +1,112 @@
+lecturer-add#0130058501#Parmonangan Rotua Togatorop#PAT#mona.togatorop@del.ac.id#Information Systems
+lecturer-add#0114129002#Iustisia Natalia Simbolon#IUS#iustisia.simbolon@del.ac.id#Informatics
+lecturer-add#0124108201#Rosni Lumbantoruan#RSL#rosni@del.ac.id#Information Systems
+course-add#12S1101#Dasar Sistem Informasi#3#D#IUS
+course-add#12S2102#Basisdata#4#C#PAT,IUS,RSL
+student-add#12S20001#Marcelino Manalu#2020#Information Systems
+student-add#12S20002#Yoga Sihombing#2020#Information Systems
+student-add#12S20003#Marcel Simanjuntak#2020#Information Systems
+enrollment-add#12S1101#12S20001#2020/2021#odd
+enrollment-add#12S1101#12S20002#2020/2021#odd
+enrollment-add#12S1101#12S20003#2020/2021#odd
+enrollment-grade#12S1101#12S20001#2020/2021#odd#B
+enrollment-grade#12S1101#12S20002#2020/2021#odd#B
+enrollment-grade#12S1101#12S20003#2020/2021#odd#B
+enrollment-add#12S2102#12S20001#2021/2022#odd
+enrollment-add#12S2102#12S20002#2021/2022#odd
+enrollment-add#12S2102#12S20003#2021/2022#odd
+enrollment-grade#12S2102#12S20001#2021/2022#odd#B
+enrollment-grade#12S2102#12S20002#2021/2022#odd#AB
+enrollment-grade#12S2102#12S20003#2021/2022#odd#BC
+enrollment-add#12S2102#12S20003#2022/2023#odd
+enrollment-grade#12S2102#12S20003#2022/2023#odd#AB
+student-details#12S20001
+student-details#12S20002
+student-details#12S20003
+---
+
+
+
+::error::The output for test t05-02-01 did not match
+Expected:
+12S20001|Marcelino Manalu|2020|Information Systems|3.00|7
+12S20002|Yoga Sihombing|2020|Information Systems|3.29|7
+12S20003|Marcel Simanjuntak|2020|Information Systems|3.29|7
+0130058501|Parmonangan Rotua Togatorop|PAT|mona.togatorop@del.ac.id|Information Systems
+0114129002|Iustisia Natalia Simbolon|IUS|iustisia.simbolon@del.ac.id|Informatics
+0124108201|Rosni Lumbantoruan|RSL|rosni@del.ac.id|Information Systems
+12S1101|Dasar Sistem Informasi|3|D|IUS (iustisia.simbolon@del.ac.id)
+12S2102|Basisdata|4|C|PAT (mona.togatorop@del.ac.id);IUS (iustisia.simbolon@del.ac.id);RSL (rosni@del.ac.id)
+12S20001|Marcelino Manalu|2020|Information Systems
+12S20002|Yoga Sihombing|2020|Information Systems
+12S20003|Marcel Simanjuntak|2020|Information Systems
+12S1101|12S20001|2020/2021|odd|B
+12S1101|12S20002|2020/2021|odd|B
+12S1101|12S20003|2020/2021|odd|B
+12S2102|12S20001|2021/2022|odd|B
+12S2102|12S20002|2021/2022|odd|AB
+12S2102|12S20003|2021/2022|odd|BC
+12S2102|12S20003|2022/2023|odd|AB
+Actual:
+12S20001|Marcelino Manalu|2020|Information Systems|3.00|7
+12S20002|Yoga Sihombing|2020|Information Systems|3.29|7
+12S20003|Marcel Simanjuntak|2020|Information Systems|2.71|7
+0130058501|Parmonangan Rotua Togatorop|PAT|mona.togatorop@del.ac.id|Information Systems
+0114129002|Iustisia Natalia Simbolon|IUS|iustisia.simbolon@del.ac.id|Informatics
+0124108201|Rosni Lumbantoruan|RSL|rosni@del.ac.id|Information Systems
+12S1101|Dasar Sistem Informasi|3|D|IUS (iustisia.simbolon@del.ac.id)
+12S2102|Basisdata|4|C|PAT (mona.togatorop@del.ac.id);IUS (iustisia.simbolon@del.ac.id);RSL (rosni@del.ac.id)
+12S20001|Marcelino Manalu|2020|Information Systems
+12S20002|Yoga Sihombing|2020|Information Systems
+12S20003|Marcel Simanjuntak|2020|Information Systems
+12S1101|12S20001|2020/2021|odd|B
+12S1101|12S20002|2020/2021|odd|B
+12S1101|12S20003|2020/2021|odd|B
+12S2102|12S20001|2021/2022|odd|B
+12S2102|12S20002|2021/2022|odd|AB
+12S2102|12S20003|2021/2022|odd|BC
+
+
+/* ----------------------------------------------------------------------------- */
+
+::error::The output for test t05-02-02 did not match
+Expected:
+12S20001|Marcelino Manalu|2020|Information Systems|3.57|7
+12S20002|Yoga Sihombing|2020|Information Systems|3.29|7
+12S20003|Marcel Simanjuntak|2020|Information Systems|3.29|7
+0130058501|Parmonangan Rotua Togatorop|PAT|mona.togatorop@del.ac.id|Information Systems
+0114129002|Iustisia Natalia Simbolon|IUS|iustisia.simbolon@del.ac.id|Informatics
+0124108201|Rosni Lumbantoruan|RSL|rosni@del.ac.id|Information Systems
+12S1101|Dasar Sistem Informasi|3|D|IUS (iustisia.simbolon@del.ac.id)
+12S2102|Basisdata|4|C|PAT (mona.togatorop@del.ac.id);IUS (iustisia.simbolon@del.ac.id);RSL (rosni@del.ac.id)
+12S20001|Marcelino Manalu|2020|Information Systems
+12S20002|Yoga Sihombing|2020|Information Systems
+12S20003|Marcel Simanjuntak|2020|Information Systems
+12S1101|12S20001|2020/2021|odd|B
+12S1101|12S20002|2020/2021|odd|B
+12S1101|12S20003|2020/2021|odd|B
+12S2102|12S20001|2021/2022|odd|B
+12S2102|12S20002|2021/2022|odd|AB
+12S2102|12S20003|2021/2022|odd|BC
+12S2102|12S20003|2022/2023|odd|AB
+12S2102|12S20001|2022/2023|odd|A
+Actual:
+12S20001|Marcelino Manalu|2020|Information Systems|3.57|7
+12S20002|Yoga Sihombing|2020|Information Systems|3.29|7
+12S20003|Marcel Simanjuntak|2020|Information Systems|3.29|7
+0130058501|Parmonangan Rotua Togatorop|PAT|mona.togatorop@del.ac.id|Information Systems
+0114129002|Iustisia Natalia Simbolon|IUS|iustisia.simbolon@del.ac.id|Informatics
+0124108201|Rosni Lumbantoruan|RSL|rosni@del.ac.id|Information Systems
+12S1101|Dasar Sistem Informasi|3|D|
+12S2102|Basisdata|4|C|
+12S20001|Marcelino Manalu|2020|Information Systems
+12S20002|Yoga Sihombing|2020|Information Systems
+12S20003|Marcel Simanjuntak|2020|Information Systems
+12S1101|12S20001|2020/2021|odd|B
+12S1101|12S20002|2020/2021|odd|B
+12S1101|12S20003|2020/2021|odd|B
+12S2102|12S20001|2021/2022|odd|B
+12S2102|12S20002|2021/2022|odd|AB
+12S2102|12S20003|2021/2022|odd|BC
+12S2102|12S20003|2022/2023|odd|AB
+12S2102|12S20001|2022/2023|odd|A
