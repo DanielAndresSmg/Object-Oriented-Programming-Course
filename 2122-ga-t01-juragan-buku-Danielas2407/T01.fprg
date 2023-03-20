@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-15 03:44:23 PM"/>
+        <attribute name="created" value="QVNVUztEQU5JRUxMSU1CT05HMzE7MjAyMS0wOS0xNTswMjo1Mzo0MyBQTTsyNjQ2"/>
+        <attribute name="edited" value="QVNVUztEQU5JRUxMSU1CT05HMzE7MjAyMS0wOS0xNTswMzoxOTo1NyBQTTsyOzI3NjM="/>
+        <attribute name="edited" value="TEVOT1ZPO0xBUFRPUC00TDNUUlBGQTsyMDIxLTA5LTE1OzAzOjQ0OjIzIFBNOzI7MjkyNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="isbn" type="String" array="False" size=""/>
+            <declare name="judul" type="String" array="False" size=""/>
+            <declare name="penulis" type="String" array="False" size=""/>
+            <declare name="tahunTerbit" type="String" array="False" size=""/>
+            <declare name="penerbit" type="String" array="False" size=""/>
+            <declare name="formatBuku" type="String" array="False" size=""/>
+            <declare name="hargaPembelian" type="Real" array="False" size=""/>
+            <declare name="minimumMargin" type="Real" array="False" size=""/>
+            <declare name="stok" type="Integer" array="False" size=""/>
+            <declare name="rating" type="Real" array="False" size=""/>
+            <input variable="isbn"/>
+            <input variable="judul"/>
+            <input variable="penulis"/>
+            <input variable="tahunTerbit"/>
+            <input variable="penerbit"/>
+            <input variable="formatBuku"/>
+            <input variable="hargaPembelian"/>
+            <input variable="minimumMargin"/>
+            <input variable="stok"/>
+            <input variable="rating"/>
+            <output expression="isbn &amp; &quot;|&quot; &amp; judul &amp; &quot;|&quot; &amp; penulis &amp; &quot;|&quot; &amp; tahunTerbit &amp; &quot;|&quot; &amp; penerbit &amp; &quot;|&quot; &amp; formatBuku &amp; &quot;|&quot; &amp; hargaPembelian &amp; &quot;|&quot; &amp; minimumMargin &amp; &quot;|&quot; &amp; stok &amp; &quot;|&quot; &amp; rating" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
